@@ -1,0 +1,43 @@
+/*
+ * Squarespace CSS is loaded via index.html <link> tags from /public/css/
+ * No Tailwind — it generated conflicting rules (e.g. columns-12 → CSS columns property)
+ * that broke Squarespace's grid layout.
+ */
+
+/* Ensure the root div fills the viewport */
+#root {
+  min-height: 100vh;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* The Squarespace CSS sets .header { position: absolute } which takes it out of
+   flow and hides content behind it. The original site config has
+   tweak-fixed-header: false, so the header should sit in normal document flow.
+   Overriding to relative keeps the header in flow so content starts below it. */
+#header {
+  position: relative !important;
+}
+
+/* Mobile menu open — toggled by React state (Squarespace JS not loaded).
+   Mirrors the rule in static.css but with !important to win specificity race. */
+.header--menu-open .header-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure all interactive elements have a pointer cursor */
+a,
+button,
+[role="button"],
+.sqs-block-button-element,
+.sqs-svg-icon--wrapper,
+.header-nav-item,
+.header-menu-nav-item {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
