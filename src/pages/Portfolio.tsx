@@ -171,7 +171,7 @@ function fund2Logo(filename: string) {
   return `/Fund%20II%20Logos/${encodeURIComponent(filename)}`
 }
 
-/** Siana Fund I — portfolio companies */
+/** Deep Science India Fund — portfolio companies */
 const fund1Portfolio: PortfolioCompany[] = [
   {
     name: 'Evolko',
@@ -249,7 +249,7 @@ const fund1Portfolio: PortfolioCompany[] = [
   }
 ]
 
-/** Siana Fund II — recent portfolio companies (`public/Fund II Logos/`) */
+/** DSIF II — recent portfolio companies (`public/Fund II Logos/`) */
 const fund2Recent: PortfolioCompany[] = [
   {
     name: 'Atomgrid',
@@ -288,7 +288,7 @@ const fund2Recent: PortfolioCompany[] = [
   }
 ]
 
-/** Siana Fund II — existing portfolio companies (`public/Fund II Logos/`) */
+/** DSIF II — existing portfolio companies (`public/Fund II Logos/`) */
 const fund2Existing: PortfolioCompany[] = [
   {
     name: 'The Energy Company',
@@ -385,10 +385,10 @@ export default function Portfolio() {
       </h1>
       <PageSection theme="white-bold" sectionId="69b7be8713c91a6817dcf51a">
         <SpacerBlock id="block-ad01058a8559341ecc6a" />
-        
+
         <TextBlock id="block-764997688790dd4adfb6">
           <p style={{ textAlign: 'center', whiteSpace: 'pre-wrap', fontWeight: 'bold', color: '#022255', fontSize: '1.6rem' }}>
-            Our Portfolio Pushes the Boundaries of Innovation in Business Using the Bedrocks of Science & Technology. Companies are grouped by Siana Fund I and Fund II below, with links to each.
+            Our Portfolio Pushes the Boundaries of Innovation in Business Using the Bedrocks of Science & Technology. Companies are grouped by Deep Science India Fund and Fund II below, with links to each.
           </p>
         </TextBlock>
 
@@ -396,7 +396,7 @@ export default function Portfolio() {
 
         <TextBlock id="block-portfolio-fund1-heading">
           <h2 style={{ textAlign: 'center', color: '#022255', fontSize: '1.45rem', fontWeight: 'bold', margin: '0 0 0.25rem' }}>
-            Siana Fund I
+            Deep Science India Fund
           </h2>
           <p style={{ textAlign: 'center', color: '#022255', fontSize: '1.05rem', margin: 0 }}>Portfolio companies</p>
         </TextBlock>
@@ -409,7 +409,7 @@ export default function Portfolio() {
 
         <TextBlock id="block-portfolio-fund2-heading">
           <h2 style={{ textAlign: 'center', color: '#022255', fontSize: '1.45rem', fontWeight: 'bold', margin: '0 0 0.25rem' }}>
-            Siana Fund II
+            DSIF II
           </h2>
         </TextBlock>
 

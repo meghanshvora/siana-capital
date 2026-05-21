@@ -16,7 +16,7 @@ export default function Navbar() {
   const navItems = [
     { label: 'About', to: '/', isHome: true },
     { label: 'Portfolio', to: '/portfolio', isHome: false },
-    { label: 'Contact', to: '/pitch-to-us', isHome: false },
+    { label: 'Legal', to: '/legal', isHome: false },
   ]
 
   return (

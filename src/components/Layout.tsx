@@ -17,8 +17,8 @@ const PAGE_BODY: Record<string, { id: string; extra: string }> = {
     id: 'homepage',
     extra: 'homepage collection-type-page collection-layout-default collection-69b7be8713c91a6817dcf4b4 mobile-style-available sqs-seven-one',
   },
-  '/pitch-to-us': {
-    id: 'pitch-to-us',
+  '/legal': {
+    id: 'legal',
     extra: 'collection-type-page collection-layout-default collection-66b200bec72f137e5e5307d3 mobile-style-available sqs-seven-one',
   },
   '/portfolio': {

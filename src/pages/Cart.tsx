@@ -28,8 +28,8 @@ export default function Cart() {
                 <p style={{ textAlign: 'center', whiteSpace: 'pre-wrap' }}>
                   Siana Capital Management does not operate an online store.
                   If you are looking for information on our investment activities
-                  or wish to get in touch, please visit our home page or pitch
-                  your start-up to us.
+                  or wish to get in touch, please visit our home page or contact
+                  us.
                 </p>
               </div>
             </div>
@@ -75,10 +75,10 @@ export default function Cart() {
               data-button-type="primary"
             >
               <Link
-                to="/pitch-to-us"
+                to="/legal"
                 className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
               >
-                Pitch to Us
+                Contact Us
               </Link>
             </div>
           </div>
