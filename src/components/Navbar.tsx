@@ -71,7 +71,13 @@ export default function Navbar() {
             <div className="header-title-nav-wrapper">
               <div className="header-title" data-animation-role="header-element">
                 <div className="header-title-logo">
-                  <Link to="/" data-animation-role="header-element">
+                  <Link
+                    to="/"
+                    data-animation-role="header-element"
+                    onClick={() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' })
+                    }}
+                  >
                     <img
                       src="/images/Siana_logo.webp"
                       alt="Siana Capital Management"
@@ -138,7 +144,13 @@ export default function Navbar() {
             <div className="header-title-nav-wrapper">
               <div className="header-title" data-animation-role="header-element">
                 <div className="header-title-logo">
-                  <Link to="/" data-animation-role="header-element">
+                  <Link
+                    to="/"
+                    data-animation-role="header-element"
+                    onClick={() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' })
+                    }}
+                  >
                     <img
                       src="/images/Siana_logo.webp"
                       alt="Siana Capital Management"

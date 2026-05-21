@@ -41,3 +41,28 @@ button,
   cursor: pointer !important;
   pointer-events: auto !important;
 }
+
+/* Footer logo link keyboard focus indicator */
+.footer-logo-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: outline 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.footer-logo-link:focus,
+.footer-logo-link:focus-visible {
+  outline: 3px solid #022255 !important; /* Premium dark corporate blue */
+  outline-offset: -3px; /* Draw outline inside to prevent clipping by overflow: hidden */
+  box-shadow: 0 0 0 3px rgba(2, 34, 85, 0.3) !important;
+}
+
+.footer-logo-link:focus img,
+.footer-logo-link:focus-visible img {
+  outline: 3px solid #022255 !important; /* Draw outline directly on the image so it's not hidden by the image pixels */
+  outline-offset: -3px;
+}

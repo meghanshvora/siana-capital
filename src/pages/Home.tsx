@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 /** Standard Squarespace page section wrapper */
@@ -286,87 +284,71 @@ export default function Home() {
           </h2>
         </TextBlock>
 
-        {/* Risk Mitigation */}
-        <div
-          className="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block sqs-col-6 span-6 float float-right"
-          data-block-type="1337"
-          data-definition-name="website.components.html"
-          data-sqsp-block="text"
-          id="block-yui_3_17_2_1_1722854989964_202063"
-        >
-          <div className="sqs-block-content">
-            <div className="sqs-text-block-container">
-              <div className="sqs-html-content">
-                <h3 style={{ whiteSpace: 'pre-wrap' }}>
-                  <span className="sqsrte-text-color--black"><em>Risk Mitigation:</em></span>
-                </h3>
-                <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
-                  <span className="sqsrte-text-color--black">
-                    Risk Mitigation through Technology and Intellectual Property Differentiation,
-                    Competitive Advantage and Market Defensibility
-                  </span>
-                </p>
-              </div>
-            </div>
+        {/* Row 1: Deep Innovation & Risk Mitigation */}
+        <div className="row sqs-row">
+          <div className="col sqs-col-6 span-6">
+            <TextBlock id="block-yui_3_17_2_1_1722854989964_226535">
+              <h3 style={{ whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black"><em>Deep Innovation:</em></span>
+              </h3>
+              <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black">
+                  Invest in "deep innovation" based ideas driven by science and technology that are
+                  path-breaking with high profitability potential (and possibly socially relevant for
+                  broader impact).
+                </span>
+              </p>
+            </TextBlock>
+          </div>
+          <div className="col sqs-col-6 span-6">
+            <TextBlock id="block-yui_3_17_2_1_1722854989964_202063">
+              <h3 style={{ whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black"><em>Risk Mitigation:</em></span>
+              </h3>
+              <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black">
+                  Risk Mitigation through Technology and Intellectual Property Differentiation,
+                  Competitive Advantage and Market Defensibility
+                </span>
+              </p>
+            </TextBlock>
           </div>
         </div>
 
-        {/* Deep Innovation */}
-        <TextBlock id="block-yui_3_17_2_1_1722854989964_226535">
-          <h3 style={{ whiteSpace: 'pre-wrap' }}>
-            <span className="sqsrte-text-color--black"><em>Deep Innovation:</em></span>
-          </h3>
-          <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
-            <span className="sqsrte-text-color--black">
-              Invest in "deep innovation" based ideas driven by science and technology that are
-              path-breaking with high profitability potential (and possibly socially relevant for
-              broader impact).
-            </span>
-          </p>
-        </TextBlock>
-
-        {/* Target Companies */}
-        <div
-          className="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block sqs-col-6 span-6 float float-right"
-          data-block-type="1337"
-          data-definition-name="website.components.html"
-          data-sqsp-block="text"
-          id="block-yui_3_17_2_1_1722854989964_210522"
-        >
-          <div className="sqs-block-content">
-            <div className="sqs-text-block-container">
-              <div className="sqs-html-content">
-                <h3 style={{ whiteSpace: 'pre-wrap' }}>
-                  <span className="sqsrte-text-color--black"><em>Target Companies:</em></span>
-                </h3>
-                <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
-                  <span className="sqsrte-text-color--black">Target companies with game-changing ideas:</span>
-                </p>
-                <ul data-rte-list="default">
-                  <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New products, methods, tools</span></p></li>
-                  <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New markets or customer segments</span></p></li>
-                  <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New cost/value equations</span></p></li>
-                </ul>
-              </div>
-            </div>
+        {/* Row 2: Stages & Target Companies */}
+        <div className="row sqs-row">
+          <div className="col sqs-col-6 span-6">
+            <TextBlock id="block-yui_3_17_2_1_1722854989964_230595">
+              <h3 style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black"><em>Stages:</em></span>
+              </h3>
+              <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black">
+                  Enter at early to mid-stages: primarily series A and series B - prior to exit. This
+                  allows our funds to play in the early value creation game and yet avoid seed stage
+                  investment risk. Further, the inherent risk of venture investment is balanced across
+                  the portfolio by stages, technology domains, industry sectors, and investment ticket
+                  sizes.
+                </span>
+              </p>
+            </TextBlock>
+          </div>
+          <div className="col sqs-col-6 span-6">
+            <TextBlock id="block-yui_3_17_2_1_1722854989964_210522">
+              <h3 style={{ whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black"><em>Target Companies:</em></span>
+              </h3>
+              <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
+                <span className="sqsrte-text-color--black">Target companies with game-changing ideas:</span>
+              </p>
+              <ul data-rte-list="default">
+                <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New products, methods, tools</span></p></li>
+                <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New markets or customer segments</span></p></li>
+                <li><p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">New cost/value equations</span></p></li>
+              </ul>
+            </TextBlock>
           </div>
         </div>
-
-        {/* Stages */}
-        <TextBlock id="block-yui_3_17_2_1_1722854989964_230595">
-          <h3 style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
-            <span className="sqsrte-text-color--black"><em>Stages:</em></span>
-          </h3>
-          <p style={{ textAlign: 'justify', whiteSpace: 'pre-wrap' }}>
-            <span className="sqsrte-text-color--black">
-              Enter at early to mid-stages: primarily series A and series B - prior to exit. This
-              allows our funds to play in the early value creation game and yet avoid seed stage
-              investment risk. Further, the inherent risk of venture investment is balanced across
-              the portfolio by stages, technology domains, industry sectors, and investment ticket
-              sizes.
-            </span>
-          </p>
-        </TextBlock>
 
         {/* Spacer */}
         <div className="sqs-block website-component-block sqs-block-website-component sqs-block-spacer spacer-block sized vsize-1" data-block-type="1337">

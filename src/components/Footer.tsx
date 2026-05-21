@@ -175,7 +175,13 @@ export default function Footer() {
                               className="sqs-image-shape-container-element has-aspect-ratio"
                               style={{ position: 'relative', paddingBottom: '100%', overflow: 'hidden' }}
                             >
-                              <Link to="/">
+                              <Link
+                                to="/"
+                                className="footer-logo-link"
+                                onClick={() => {
+                                  window.scrollTo({ top: 0, behavior: 'smooth' })
+                                }}
+                              >
                                 <img
                                   src="/images/Siana_logo.webp"
                                   alt="Siana Capital Management Logo"
